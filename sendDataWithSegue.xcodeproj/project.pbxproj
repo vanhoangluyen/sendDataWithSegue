@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2DCF6C1F90A89B00BC1173 /* TransferDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCF6B1F90A89B00BC1173 /* TransferDataViewController.swift */; };
 		3BFF98A21F90384700E35521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF98A11F90384700E35521 /* AppDelegate.swift */; };
 		3BFF98A41F90384700E35521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFF98A31F90384700E35521 /* ViewController.swift */; };
 		3BFF98A71F90384700E35521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFF98A51F90384700E35521 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B2DCF6B1F90A89B00BC1173 /* TransferDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferDataViewController.swift; sourceTree = "<group>"; };
 		3BFF989E1F90384700E35521 /* sendDataWithSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendDataWithSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFF98A11F90384700E35521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFF98A31F90384700E35521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B2DCF6A1F90A74A00BC1173 /* TransferDataSegue */ = {
+			isa = PBXGroup;
+			children = (
+				3BFF98A11F90384700E35521 /* AppDelegate.swift */,
+				3BFF98A31F90384700E35521 /* ViewController.swift */,
+				3B2DCF6B1F90A89B00BC1173 /* TransferDataViewController.swift */,
+			);
+			path = TransferDataSegue;
+			sourceTree = "<group>";
+		};
 		3BFF98951F90384700E35521 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +89,7 @@
 		3BFF98A01F90384700E35521 /* sendDataWithSegue */ = {
 			isa = PBXGroup;
 			children = (
-				3BFF98A11F90384700E35521 /* AppDelegate.swift */,
-				3BFF98A31F90384700E35521 /* ViewController.swift */,
+				3B2DCF6A1F90A74A00BC1173 /* TransferDataSegue */,
 				3BFF98A51F90384700E35521 /* Main.storyboard */,
 				3BFF98A81F90384700E35521 /* Assets.xcassets */,
 				3BFF98AA1F90384700E35521 /* LaunchScreen.storyboard */,
@@ -199,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B2DCF6C1F90A89B00BC1173 /* TransferDataViewController.swift in Sources */,
 				3BFF98A41F90384700E35521 /* ViewController.swift in Sources */,
 				3BFF98A21F90384700E35521 /* AppDelegate.swift in Sources */,
 			);
